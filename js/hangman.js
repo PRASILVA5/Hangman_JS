@@ -91,8 +91,6 @@ function guessInput(key){
         r = confirm("You lose :,(   Do you want to play more?")
         if (r == true) {
             refreshPage();
-          } else {
-            txt = "You pressed Cancel!";
           } 
     }
     else{
@@ -109,9 +107,6 @@ function guessInput(key){
             r = confirm("You won!!! Do you want to play more?")
             if (r == true) {
                 refreshPage();
-            } 
-            else{
-                txt = "You pressed Cancel!";
             } 
             
         }
